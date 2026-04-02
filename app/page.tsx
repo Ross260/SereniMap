@@ -52,13 +52,13 @@ function SectionHero() {
         </div>
 
         <h1 className="font-heading text-balance text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
-          Naviguez en toute serenite
+          Naviguez en toute sérénité
         </h1>
 
         <p className="max-w-2xl text-balance text-lg leading-relaxed opacity-90 md:text-xl">
-          SereniMap vous aide a vous deplacer sereinement en evitant les zones de
-          forte affluence. Visualisez la densite de foule en temps reel, trouvez
-          des itineraires calmes et reprenez confiance dans vos deplacements.
+          SereniMap vous aide à vous déplacer sereinement en évitant les zones de
+          forte affluence. Visualisez la densité de foule en temps réel, 
+          trouvez des itinéraires calmes et reprenez confiance dans vos déplacements
         </p>
 
         <div className="flex flex-col gap-4 sm:flex-row">
@@ -94,7 +94,7 @@ function SectionFonctionnalites() {
   const fonctionnalites = [
     {
       icone: MapPin,
-      titre: "Carte de densite en temps reel",
+      titre: "Carte de densité en temps reel",
       description:
         "Visualisez les zones calmes et animees sur une carte interactive. Les couleurs douces vous guident : bleu pour le calme, orange pour les zones a eviter.",
       lien: "/carte",
@@ -180,7 +180,7 @@ function SectionCommentCaMarche() {
       icone: Clock,
       titre: "Consultez la densite",
       description:
-        "Ouvrez la carte et visualisez instantanement les niveaux de frequentation autour de vous ou de votre destination.",
+        "Ouvrez la carte et visualisez instantanément les niveaux de frequentation autour de vous ou de votre destination.",
     },
     {
       numero: 2,
@@ -194,7 +194,7 @@ function SectionCommentCaMarche() {
       icone: Heart,
       titre: "Deplacez-vous sereinement",
       description:
-        "Suivez votre itineraire calme avec des points de repli identifies. Vous gardez le controle a chaque etape.",
+        "Suivez votre itinéraire calme avec des points de repli identifies. Vous gardez le controle a chaque etape.",
     },
   ];
 
